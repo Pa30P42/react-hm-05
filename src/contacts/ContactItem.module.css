@@ -1,0 +1,26 @@
+.contactItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 270px;
+  padding: 15px;
+  font-size: 18px;
+  font-weight: 600;
+  box-shadow: 0 0 3px;
+  margin-bottom: 10px;
+}
+
+.enter {
+  transform: translateX(-100%);
+}
+.enterActive {
+  transform: translateX(0);
+  transition: all 750ms linear;
+}
+.exit {
+  transform: translateX(0);
+}
+.exitActive {
+  transform: translateX(-100%);
+  transition: all 750ms linear;
+}

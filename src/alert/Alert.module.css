@@ -1,0 +1,41 @@
+.enter {
+  transform: translateX(100%);
+}
+.enterActive {
+  transform: translateX(0);
+  transition: all 1500ms linear;
+}
+.exit {
+  transform: translateX(0);
+}
+.exitActive {
+  transform: translateX(100%);
+  transition: all 1500ms linear;
+}
+
+.alertWrapper {
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+  background-color: tomato;
+  padding: 25px;
+  border-radius: 5px;
+}
+
+.btn {
+  background-color: gray;
+  width: 100px;
+  height: 25px;
+  border: 0;
+  border-radius: 2px;
+  color: #ffffff;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: black;
+  outline: 0;
+}
+.btn:focus {
+  background-color: black;
+  outline: 0;
+}

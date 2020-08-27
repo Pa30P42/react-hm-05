@@ -1,0 +1,16 @@
+.formInput {
+  display: block;
+  margin-bottom: 5px;
+  width: 250px;
+  outline: 1px solid blue;
+}
+.formWrapper {
+  box-shadow: 0 0 3px;
+  padding: 15px;
+  width: 270px;
+  display: block;
+}
+
+.findContactTitle {
+  margin: 0;
+}

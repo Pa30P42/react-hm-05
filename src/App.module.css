@@ -1,0 +1,18 @@
+.phonebookTitle {
+  font-size: 36px;
+  font-weight: 800;
+  color: palevioletred;
+}
+
+.appear {
+  transform: translateX(-100%);
+}
+.appearActive {
+  transform: translateX(0);
+  transition: all 1500ms linear;
+}
+
+.titleWrapper {
+  display: flex;
+  justify-content: space-between;
+}
