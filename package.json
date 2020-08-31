@@ -2,7 +2,7 @@
   "name": "react-hm-05",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://pa30p42.github.io/react-hm-05/",
+  "homepage": "https://pa30p42.github.io/react-hm-05",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
